@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Original Paragraph Tag</p>
+    <button onclick="onChange()">Click Me</button>
+    <!-- <button onclick="changeText()">Click Me</button> -->
+    <script>
+        function onChange()
+        {
+            document.getElementById("demo").innerHTML = "This is Paragraph tag Change";
+        }
+    </script>
+</body>
+</html>
+
+<html>
+  <head>
+    <title>DOM Example</title>
+  </head>
+  <body>
+    <h1 id="heading">Hello, World!</h1>
+    <!-- <p class="text">This is a paragraph.</p> -->
+    <button onclick="changetext()">Click Me</button>
+
+    <script>
+      function changetext() {
+        document.getElementById("heading").innerHTML = "Hello, JavaScript!";
+      }
+    </script>
+  </body>
+</html>
+
+
+
